@@ -1,6 +1,11 @@
 'use strict'
 
-angular.module('angular-flexslider', [])
+if typeof module isnt 'undefined' and typeof module.exports isnt 'undefined' and typeof exports is 'object'
+	# CommonJS support (for Webpack/Browserify/ComponentJS folks)
+	module.exports = 'angular-flexslider'
+
+angular
+	.module('angular-flexslider', [])
 	.directive 'flexSlider', ['$parse', '$timeout', ($parse, $timeout) ->
 		restrict: 'AE'
 		scope: no
@@ -120,4 +125,4 @@ angular.module('angular-flexslider', [])
 
 					# Running flexslider
 					$timeout (-> flexsliderDiv.flexslider options), 0
-				]
+				]	
