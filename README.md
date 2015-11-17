@@ -9,7 +9,11 @@ To install using [Bower](http://bower.io):
 ```
 bower install angular-flexslider
 ```
+and using [npm](http://npmjs.com):
 
+```
+npm install --save angular-flexslider
+```
 ## Setup
 
 In your document header include FlexSlider's CSS:
