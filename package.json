@@ -21,6 +21,6 @@
   },
   "dependencies": {
     "angular": "^1.5.8",
-    "flexslider": "https://github.com/areverberi/flexslider.git"
+    "flexslider": "2.6.3"
   }
 }
