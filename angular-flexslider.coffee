@@ -1,5 +1,7 @@
 'use strict'
-
+angular = require('angular');
+fSlider = require('flexslider');
+$ = require('jquery');
 if typeof module isnt 'undefined' and typeof module.exports isnt 'undefined' and typeof exports is 'object'
 	# CommonJS support (for Webpack/Browserify/ComponentJS folks)
 	module.exports = 'angular-flexslider'
@@ -125,4 +127,4 @@ angular
 
 					# Running flexslider
 					$timeout (-> flexsliderDiv.flexslider options), 0
-				]	
+				]
