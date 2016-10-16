@@ -3,9 +3,9 @@
   'use strict';
   var angular, fSlider, jQuery;
 
-  angular = require('angular');
-
   jQuery = require('jquery');
+
+  angular = require('angular');
 
   fSlider = require('flexslider');
 

@@ -1,6 +1,6 @@
 'use strict'
-angular = require('angular');
 jQuery = require('jquery');
+angular = require('angular');
 fSlider = require('flexslider');
 fSlider(jQuery);
 if typeof module isnt 'undefined' and typeof module.exports isnt 'undefined' and typeof exports is 'object'
