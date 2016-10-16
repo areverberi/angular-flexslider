@@ -1,5 +1,6 @@
 'use strict'
 jQuery = require('jquery');
+window.jQuery = jQuery;
 angular = require('angular');
 fSlider = require('flexslider');
 fSlider(jQuery);
