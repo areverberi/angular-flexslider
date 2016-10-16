@@ -1,6 +1,6 @@
 'use strict'
 jQuery = require('jquery');
-window.jQuery = jQuery;
+# window.jQuery = jQuery;
 angular = require('angular');
 fSlider = require('flexslider');
 fSlider(jQuery);
@@ -92,8 +92,8 @@ angular
 					# Create flexslider container
 					slidesItems = {}
 					flexsliderDiv?.remove()
-					slides = angular.element('<ul class="slides"></ul>')
-					flexsliderDiv = angular.element('<div class="flexslider"></div>')
+					slides = jQuery('<ul class="slides"></ul>')
+					flexsliderDiv = jQuery('<div class="flexslider"></div>')
 					flexsliderDiv.append slides
 					$element.append flexsliderDiv
 
